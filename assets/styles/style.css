@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1D1E26;
+    height: 64px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    padding-top: 21px;
+}
+
+ul li a {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+li.lato {
+    font-size: 18px;
+}
+
+li.lora {
+    font-size: 24px;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+    color: #F2F2F2;
+}
+
+.lora {
+    font-family: 'Lora', serif;
+    color: #F2F2F2;
+}
+
+.tribute {
+    background-color: #8C111B;
+    display: inline-block;
+    position: top;
+    padding: 17px 95px 16px 94px;
+    margin: 0 56px;
+    width: 336px;
+    height: 64px;
+}
+
+#home {
+    background-image: url(../images/background-image.svg);
+    background-size: contain;
+    height: 762px;
+    width: auto;
+    background-position: center;
+}
+
+#home h1 {
+    text-align: center;
+    text-shadow: -2px 2px 0px #8C111B;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 300px;
+}
+
+#home p {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+}
+
+#home img {
+    padding-top: 17%;
+    padding-left: 48%;
+}
+
+#biography,
+#discography {
+    background-color: #1D1E26;
+    height: 1016px;
+}
+
+.biography_txt {
+    display: inline;
+    width: 50%;
+    padding: 20% 3% 20% 10%;
+    float: left;
+}
+
+.biography_txt h1 {
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: auto auto 32px auto;
+}
+
+.biography_txt p {
+    text-align: justify;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.biography_img {
+    display: inline-block;
+    width: 435px;
+    height: 542px;
+    padding: 17% 7%;
+}
+
+#discography h1 {
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 2%;
+}
+
+#discography p a {
+    text-decoration: underline;
+    color: #F2F2F2;
+}
+
+.discography_p {
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    color: #F2F2F2;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    height: 304px;
+    margin: 1%;
+    background-color: #1D1E26;
+    box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.first_line,
+.second_line {
+    margin-left: 5%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.card_img {
+    width: 160px;
+    height: 160px;
+    padding: 32px 262px auto 34px;
+    float: left;
+}
+
+.card_p {
+    text-align: justify;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    padding: 8px 308px 90px 50px;
+}
+
+
+.card_txt h2 {
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.list {
+    padding-left: 16px;
+}
+
+.list ol li {
+    text-align: justify;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+}
+
+footer {
+    height: 64px;
+    background-color: #8C111B;
+}
+
+footer p {
+    font-size: 18px;
+    padding-top: 21px;
+    padding-left: 85px;
+    font-style: normal;
+    line-height: normal;
+}
