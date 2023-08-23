@@ -204,6 +204,7 @@ float: left;}
 
 .discography_list {
     display: inline;
+    margin-left: 16px;
 }
 
 .discography_list ol li{
