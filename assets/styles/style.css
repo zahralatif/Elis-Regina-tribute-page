@@ -168,8 +168,9 @@ li.lora {
     margin-bottom: 60px;
 }
 
-.card{
-float: left;}
+.card {
+    float: left;
+}
 
 .card_img {
     display: inline;
@@ -200,18 +201,22 @@ float: left;}
     font-size: 18px;
     font-style: normal;
     line-height: normal;
+    padding-right: 70px;
+    float: right;
 }
 
 .discography_list {
     display: inline;
-    margin-left: 16px;
+    padding-right: 70px;
+    float: right;
 }
 
-.discography_list ol li{
+.discography_list ol li {
     text-align: justify;
     font-size: 14px;
     font-style: normal;
-    line-height: normal;}
+    line-height: normal;
+}
 
 footer {
     height: 64px;
