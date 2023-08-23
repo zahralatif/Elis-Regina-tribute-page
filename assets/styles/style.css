@@ -120,13 +120,21 @@ li.lora {
     padding: 17% 7%;
 }
 
+.line {
+    background-color: linear-gradient(90deg, #F2F2F2 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+#discography {
+    height: 1143px;
+}
+
 #discography h1 {
     text-align: center;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-top: 2%;
+    padding-top: 156px;
 }
 
 #discography p a {
@@ -140,6 +148,7 @@ li.lora {
     font-style: normal;
     line-height: normal;
     color: #F2F2F2;
+    clear: both;
 }
 
 .card {
@@ -158,11 +167,17 @@ li.lora {
     margin-bottom: 60px;
 }
 
+.card{
+float: left;}
+
 .card_img {
+    display: inline;
+}
+
+.card_img img {
     width: 160px;
     height: 160px;
     padding: 32px 262px auto 34px;
-    float: left;
 }
 
 .card_p {
@@ -170,7 +185,11 @@ li.lora {
     font-size: 12px;
     font-style: normal;
     line-height: normal;
-    padding: 8px 308px 90px 50px;
+    padding: 8px 62px 90px 50px;
+}
+
+.card_txt {
+    display: inline;
 }
 
 
@@ -181,15 +200,8 @@ li.lora {
     line-height: normal;
 }
 
-.list {
-    padding-left: 16px;
-}
-
-.list ol li {
-    text-align: justify;
-    font-size: 14px;
-    font-style: normal;
-    line-height: normal;
+.discography_list {
+    display: inline;
 }
 
 footer {
