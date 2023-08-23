@@ -208,6 +208,7 @@ li.lora {
 .discography_list {
     display: inline;
     padding-right: 70px;
+    padding-top: 18px;
     float: right;
 }
 
