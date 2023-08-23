@@ -201,15 +201,16 @@ li.lora {
     font-size: 18px;
     font-style: normal;
     line-height: normal;
-    padding-right: 70px;
-    float: right;
+    padding-left: 16px;
+    padding-top: 32px;
+    float: left;
 }
 
 .discography_list {
     display: inline;
-    padding-right: 70px;
+    padding-left: 16px;
     padding-top: 18px;
-    float: right;
+    float: left;
 }
 
 .discography_list ol li {
