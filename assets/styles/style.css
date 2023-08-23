@@ -148,6 +148,7 @@ li.lora {
     font-style: normal;
     line-height: normal;
     color: #F2F2F2;
+    padding-top: 80px;
     clear: both;
 }
 
@@ -172,6 +173,7 @@ float: left;}
 
 .card_img {
     display: inline;
+    float: left;
 }
 
 .card_img img {
@@ -203,6 +205,12 @@ float: left;}
 .discography_list {
     display: inline;
 }
+
+.discography_list ol li{
+    text-align: justify;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;}
 
 footer {
     height: 64px;
