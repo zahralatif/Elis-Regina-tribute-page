@@ -180,7 +180,7 @@ li.lora {
 .card_img img {
     width: 160px;
     height: 160px;
-    padding: 32px 262px auto 34px;
+    margin-top: 32px;
 }
 
 .card_p {
