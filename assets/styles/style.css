@@ -56,7 +56,8 @@ li.lora {
 
 #home {
     background-image: url(../images/background-image.svg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 762px;
     width: auto;
     background-position: center;
